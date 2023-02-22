@@ -3,6 +3,7 @@ import 'package:flutter/foundation.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:todo_app/domain/model/todo_model.dart';
+// ignore: depend_on_referenced_packages
 import 'package:hive/hive.dart';
 
 class AuthController extends ChangeNotifier {

@@ -17,6 +17,7 @@ class _SplashScreenState extends State<SplashScreen> {
         (_) async {
           Future.delayed(const Duration(seconds: 3), () async {
             String? docId = 'asd';
+            // ignore: unnecessary_null_comparison
             if (docId == null) {
               // ignore: use_build_context_synchronously
               Navigator.pushAndRemoveUntil(

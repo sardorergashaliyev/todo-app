@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:todo_app/controller/auth_controller.dart';
 import 'package:todo_app/controller/todo_cotroller.dart';
 import 'package:todo_app/domain/model/todo_model.dart';
 import 'package:todo_app/view/pages/home/home_page.dart';
